@@ -1,0 +1,39 @@
+{
+  "name": "@styled-components/benchmarks",
+  "private": true,
+  "version": "0.8.6",
+  "scripts": {
+    "headless": "node run-headless.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.4",
+    "@emotion/styled": "11.11.5",
+    "@pigment-css/react": "0.0.9",
+    "classnames": "2.5.1",
+    "d3-scale-chromatic": "3.1.0",
+    "fbjs": "^3.0.5",
+    "prop-types": "^15.8.1",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-is": "18.3.1",
+    "react-native": "npm:react-native-web@^0.19.11",
+    "styled-components": "^6.1.8",
+    "styled-jsx": "5.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "@babel/preset-react": "^7.24.1",
+    "@babel/preset-typescript": "^7.24.1",
+    "@pigment-css/vite-plugin": "0.0.9",
+    "babel-plugin-module-resolver": "5.0.2",
+    "vite": "^5.2.10",
+    "@vitejs/plugin-react": "^4.2.1"
+  },
+  "sideEffects": false,
+  "engines": {
+    "node": ">=14"
+  }
+}
