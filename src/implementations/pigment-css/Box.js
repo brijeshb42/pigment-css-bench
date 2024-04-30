@@ -46,21 +46,15 @@ const Box = styled(View, {
       style: styles[`color${color}`],
     })),
     {
-      props: {
-        fixed: true,
-      },
+      props: (p) => !!p.fixed,
       style: styles.fixed,
     },
     {
-      props: {
-        layout: "row",
-      },
+      props: (p) => p.layout === "row",
       style: styles.row,
     },
     {
-      props: {
-        outer: true,
-      },
+      props: (p) => p.outer === true,
       style: styles.outer,
     },
   ],
